@@ -77,8 +77,8 @@ const styles = {
 
   gradientText: {
     background: 'linear-gradient(to right, #8456EC, #E87BF8)',
-    textFillColor: 'transparent',
-    backgroundClip: 'text',
+    WebkitBackgroundClip: 'text',
+    WebkitTextFillColor: 'transparent'
   },
 
   descriptiveText: {
